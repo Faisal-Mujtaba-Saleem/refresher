@@ -1,15 +1,7 @@
+from utils import printQuestion
+
 try:
-    def printQuestion(Q):
-        print('')
-
-        seperator = ['**' for char in Q]
-        seperator = ''.join(seperator)
-
-        print(seperator.center(100))
-        print(Q.center(100))
-        print(seperator.center(100))
-
-        print('')
+  # Assignment Solution:
 
     # 1. Calculate the Area of a Rectangle:
     Q_1 = 'Area of a Rectangle'

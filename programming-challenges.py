@@ -1,23 +1,9 @@
 from functools import reduce
+from utils import printQuestion
+from utils import intList
 
 try:
-    def printQuestion(Q):
-        print('')
-
-        seperator = ['**' for char in Q]
-        seperator = ''.join(seperator)
-
-        print(seperator.center(100))
-        print(Q.center(100))
-        print(seperator.center(100))
-
-        print('')
-
-    def intList(list):
-        seq_ = []
-        for num in list:
-            seq_.append(int(num))
-        return seq_
+    # Assignment Solution:
 
     # 1. Find the Median of Three Numbers:
     Q_1 = 'Find the Median of Odd Sequence'
