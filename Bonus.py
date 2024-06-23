@@ -33,5 +33,7 @@ try:
 
     print(f'Longest consecutive sequence length: {len(consecutive_seq)}')
 
-except Exception as e:
-    print(e)
+except Exception as error:
+    print(error)
+else:
+    print('\n Programme Finished!')
